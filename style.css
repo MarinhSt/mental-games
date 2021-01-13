@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 90px 1fr 50px;
+}
+
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    background-color:  #393a3d;
+    color: #f4f4f4;
+    font-size:  4rem;
+    align-content: center;
+    justify-content: center;
+}
+.logo{
+    margin: auto 2rem;
+}
+.logo > img {
+    height: 100%;
+    width: 6rem;
+    object-fit: scale-down;
+}
+
+.main{
+    background-color: linear-gradient(to top,#cdcecf,#ff0000);
+    /* background-image: url(./resource/summer97.gif); */
+    /* background-size: contain; */
+    display: grid;
+    justify-content: center;
+    align-content: auto;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+
+
+.iniciar-juego{
+    cursor: pointer;
+    background-color: #0d3bc7;
+    color: #f4f4f4;
+    margin: 4rem;
+    outline: none;
+    border: .2rem solid ;
+    border-radius: 100rem;
+    font-size: 2rem;
+    padding: 2rem;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.iniciar-juego:hover{
+    transform:scale(1.04);
+}
+
+.footer{
+    display: grid;
+    background-color:  #555557;
+    color: #f4f4f4;
+    font-size:  1.6rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}

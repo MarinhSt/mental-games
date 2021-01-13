@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./game.css" />
+		<link rel="icon" href="../resource/icon.png" />
+		<title>RtS think</title>
+	</head>
+	<body>
+		<div id="box_level" class="level">NIVEL <b id="blevel"></b></div>
+		<button id="restart" class="restart">Reintentar</button>
+		<div id="gameboard" class="gameboard">
+			<div id="azul" class="color azul left" data-color="0"></div>
+			<div id="rojo" class="color rojo right" data-color="1"></div>
+			<div id="amarillo" class="color amarillo left" data-color="2"></div>
+			<div id="verde" class="color verde right" data-color="3"></div>
+			<button id="botton_start" class="btn-start">Empezar a jugar!</button>
+		</div>
+		<a href="../index.html" ><button id="Home" class="home">Home</button></a>
+		<script src="./logic.js"></script>
+	</body>
+</html>
